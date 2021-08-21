@@ -57,7 +57,7 @@ body {
   height: 100%;
 }
 
-.movie_cover--darkend {
+.movie__cover--darkend {
   background-color: #000000;
   opacity: 0.5;
   position: absolute;
@@ -70,7 +70,7 @@ body {
   /* height: 360px; */
 }
 
-.movie_cover--darkend:hover {
+.movie__cover--darkend:hover {
   background-color: grey;
   cursor: pointer;
 }
@@ -96,17 +96,23 @@ body {
   right: 0;
   border-radius: 50%;
   width: 36px;
+  height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #1a191f;
+  color: #ffffff;
+  font-size: 14px;
 }
 
 .movie__average--green {
+  border-radius: 1px solid green;
 }
 
 .movie__average--orange {
+  border-radius: 1px solid orange;
 }
 
 .movie__average--red {
+  border-radius: 1px solid red;
 }
