@@ -112,7 +112,7 @@ main {
   padding: 1rem;
   max-height: 100%;
   transform: translateY(101%);
-  transition: transform 0.3s;
+  transition: transform 0.3s ease-in;
 }
 
 .movie:hover .overview {
